@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6760536280E53A600C38C3C /* BookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6760535280E53A600C38C3C /* BookManager.m */; };
 		A6AED020280E4C1800461E9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AED01F280E4C1800461E9B /* main.m */; };
 		A6AED028280E4DAD00461E9B /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AED027280E4DAD00461E9B /* Book.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A6760534280E53A600C38C3C /* BookManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookManager.h; sourceTree = "<group>"; };
+		A6760535280E53A600C38C3C /* BookManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookManager.m; sourceTree = "<group>"; };
 		A6AED01C280E4C1800461E9B /* ObjectCBookManageConsole */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectCBookManageConsole; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AED01F280E4C1800461E9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6AED026280E4DAD00461E9B /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				A6AED01F280E4C1800461E9B /* main.m */,
 				A6AED026280E4DAD00461E9B /* Book.h */,
 				A6AED027280E4DAD00461E9B /* Book.m */,
+				A6760534280E53A600C38C3C /* BookManager.h */,
+				A6760535280E53A600C38C3C /* BookManager.m */,
 			);
 			path = ObjectCBookManageConsole;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6760536280E53A600C38C3C /* BookManager.m in Sources */,
 				A6AED028280E4DAD00461E9B /* Book.m in Sources */,
 				A6AED020280E4C1800461E9B /* main.m in Sources */,
 			);
