@@ -44,8 +44,16 @@ int main(int argc, const char * argv[]) {
         if(strTemp != nil){
             NSLog(@"%@",strTemp);
         }else{
-            NSLog(@"찾으시는 책이 없습니다");
+            NSLog(@"해당하는 책이 없습니다");
         }
+        
+        NSString *strTemp2 = [myBook removeBook:@"죄와 벌"];
+        if(strTemp2 != nil){
+            NSLog(@"%@",strTemp2);
+        }else{
+            NSLog(@"해당하는 책이 없습니다");
+        }
+        NSLog(@"%@",[myBook showAllBook]);
     }
     return 0;
 }
