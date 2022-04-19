@@ -38,6 +38,14 @@ int main(int argc, const char * argv[]) {
         [myBook addBook:book3];
         
         NSLog(@"%@",[myBook showAllBook]);
+        NSLog(@"count : %li",[myBook countBook]);
+        
+        NSString *strTemp = [myBook findBook:@"죄와 11벌"];
+        if(strTemp != nil){
+            NSLog(@"%@",strTemp);
+        }else{
+            NSLog(@"찾으시는 책이 없습니다");
+        }
     }
     return 0;
 }
